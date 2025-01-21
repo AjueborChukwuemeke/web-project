@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        
+        body {
+            background-color:rgb(220, 220, 220);
+            font-family:sans-serif;
+            font-size:14px;
+            text-align:center;
+            
+            }
+        .reg {
+            text-align:center;
+            font-size:12px;
+            z-index:3;
+        }
+        h1 {
+            color:rgb(0,0,0);
+            font-size:5em;
+            font-family:fantasy;
+        }
+        
+       
+        
+        h4 {
+            color:rgb(0,0,0);
+        }
+        
+        
+        #people {
+            color:rgb(150,150,150);
+            background-color:rgb(255, 243, 184);
+            border:ridge ;
+            padding:3px;
+            text-align:left;
+            font-size:12px;
+            font-family:serif;
+            font-style:italic;
+            float:left;
+            width:20%;
+            height:150px;
+            overflow-y:auto;
+            overflow-x:auto;
+            position:absolute;
+            top:200px;
+            left:10px;
+           
+            
+        }
+        
+            
+        #heart {
+            position:absolute;
+            top:100px;
+            right:100px;
+            opacity:0.1;
+            
+        }   
+        #button {
+            float:right;
+            position:fixed;
+            top:150px;
+            right:5px;
+            
+        }
+        #rings {position:absolute;
+            top:200px;
+            right:240px;
+            opacity:0.8;
+        
+            margin:auto;
+            z-index: 2;
+        }
+        
+        #chadd {
+            position:absolute;
+            top: 220px;
+            right:140px;
+            font-weight:bold;
+            font-family:"berlin sans fb",sans-serif;
+            color:rgb(41, 5, 41);
+            margin-bottom:500px;
+            width:50%;
+            clear:both;
+            z-index:3;
+        }
+        
+        #ch {
+            position:absolute;
+            top:210px;
+            right:190px;
+            opacity:0.4;
+            z-index: 1;
+            
+        }
+        
+        #green {
+            color:green;
+            font-weight:bold;
+            background-color:white;
+        }
+        #peach {
+            color:rgb(255,229,180);
+            font-weight:bold;
+            background-color:white;
+        }
+        
+        #silver {
+            color:rgb(192,192,192);
+            font-weight:bold;
+            background-color:white;
+        }
+        
+        
+        #chow{
+            float:left;
+            clear:both;
+            font-family:monospace;
+            font-size:0.7em;
+            text-align:left;
+        }
+        
+        #food{
+            float:right;
+            position:fixed;
+            top:250px;
+            right:5px;
+        }
+        #map {
+            float:right;
+        }
+        #chlink{
+            text-decoration:none;
+        }
+        #col {
+            border:3px double rgb(189, 100, 189);
+            margin-top:200px;
+            margin-left:200px;
+            width:30%;
+            
+        }
+        
+        #iv {
+            position:absolute;
+            top: 550px;
+            right:220px;
+            font-weight:bold;
+            font-style: italic;
+            font-size:0.9em;
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited!</h1>
+        <h2>To Our Wedding!</h2>
+        <div id="heart-image">
+        <img id = "heart"src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/healthheart.png" alt="heart-sign" width="400">
+        </div>
+        
+        <img id="rings" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rings.png/320px-Rings.png" alt="wedding rings" width="100">
+        
+    <div id="people">   
+    <h4>ON THE DAY!</h4>
+        <p>
+1. Sophie Turner - Event Planner<br>
+2. Father Michael O'Connor - Wedding Officiant<br>  
+3. James Holloway - Venue Manager<br>  
+4. Monica Vasquez - Head Chef<br>  
+5. Carlos Reyes - Sous Chef<br>  
+6. Lena Foster - Bartender<br>  
+7. Emily Lee - Waitstaff Lead<br>  
+8. Olivia Stevens - Cake Designer<br>  
+9. Gabriella Brooks - Head Florist<br>  
+10. Ryan "Rye" Simmons - Lead Singer (Wedding Band)<br>  
+11. Tasha Daniels - Guitarist (Wedding Band)<br>  
+12. Ethan Clark - Drummer (Wedding Band)<br>  
+13. Carla Monroe - Keyboardist (Wedding Band)<br>  
+14. Nathaniel Cruz - Lead Wedding Photographer<br>  
+15. Mia Patel - Wedding Videographer<br>  
+16. Tara Williams - Bridal Makeup Artist<br>  
+17. Brianna King - Bridal Hairstylist<br>  
+18. Thomas Bennett - Best Man<br>  
+19. Jack O'Neill - Groomsman<br>  
+20. Caleb Harris - Groomsman<br>  
+21. Andrew Foster - Groomsman<br>  
+22. Oliver Reed - Groomsman<br>  
+23. Emma Williams - Maid of Honor<br>  
+24. Sophie Clarke - Bridesmaid<br>  
+25. Lily Barnes - Bridesmaid<br>  
+26. Natalie Lee - Bridesmaid<br>  
+27. Zoe Adams - Bridesmaid<br>  
+28. Oliver James - Ring Bearer<br>  
+29. Emily Parker - Flower Girl<br>  
+30. Chris Walker - Transportation Coordinator<br>  
+31. David Johnson - Head of Security<br>  
+32. Sandra Green - Gift Table Coordinator<br>  
+33. Michael Hart - Master of Ceremonies<br>  
+34. Rachel Thompson - Guest Services Lead<br>
+        </p>
+    </div>
+     <img id = "ch" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/-2015-04-29_Interior%2C_Saint_Nicholas_parish_church%2C_Great_Yarmouth%2C_Norfolk.jpg/640px--2015-04-29_Interior%2C_Saint_Nicholas_parish_church%2C_Great_Yarmouth%2C_Norfolk.jpg" width="200">
+    
+    
+    <div id="chadd">
+        <p class="reg">
+        As we take our vows this Saturday <br>
+January 25th at <a id="chlink" href="#map"><span id="church">St. Andrews Anglican Church</span></a><br>
+Ryosuki Street, Tokyo.
+        </p>
+        <p class="reg">
+        <em>"Together we laugh, together we dream,<br>
+In love and in life, we're a perfect team.<br>
+Join us as we say "I do,"<br>
+And celebrate with joy, laughter, and you!<br>
+Your presence will make our day complete."</em>
+        </p>
+        
+        </div>  
+    
+        
+        <div id = "button">
+        <a href="https://www.fillintheformtoenableuscook.com"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/RSVP_Movies_official_logo.jpg" alt="google maps location"width="56" ></a>
+            
+    <!--the website pointed to is a fictitious one created that doesn't exist, for the purpose filling in the href quote mark. This fictitious  page is reused for the externally pointing links-->        
+        </div>
+        
+        
+        <div id="col"><h4>Colours of the day</h4>
+        <p id="colours">
+            <span id = "green">Green</span><br>
+            <span id = "peach">Peach</span><br>
+            <span id = "silver">Silver</span><br>
+            
+        </p></div>
+        
+        
+        <h6 id="chow" class="reg"><a href="https://www.fillintheformtoenableuscook.com">fill in your food allergens <br>to help us cater to you</a></h6>
+        <a href="#chow"><img id = "food"src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Webdings_x00e4.png" alt="dinner plate icon"width="55" ></a>
+        
+        
+        <a href="https://www.fillintheformtoenableuscook.com"><img id = "map"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/768px-Google_Maps_icon_%282015-2020%29.svg.png" alt="google maps location"width="35" ></a>
+        
+        <div id="iv">
+        <p>
+        Be our guest..........
+        </p>
+        </div>
+        
+        
+    </body>
+</html>
